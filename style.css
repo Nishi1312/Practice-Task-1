@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: inline;
+  background-color: rgb(252, 249, 249);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 85px;
+  padding: 0 8%;
+  width: 90%;
+}
+
+img {
+  width: 70%;
+  margin-top: -80px;
+}
+
+.main {
+  flex: 1;
+  width: 50%;
+}
+
+.subcontent {
+  margin-left: 29px;
+  font-size: 20px;
+}
+
+#email,
+#password,
+#login,
+#reset,
+#newaccount {
+  margin: 8px 0;
+  padding: 15px;
+  border-radius: 8px;
+  border-color: white;
+  width: 100%;
+}
+
+.loginform {
+  border: 1px;
+  background-color: white;
+  border-radius: 5px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+  flex: 1;
+  padding: 25px;
+}
+.mainform {
+  flex: 1;
+}
+#email {
+  margin-top: 20px;
+}
+#login {
+  background-color: #1877f2;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+a {
+  width: 320px;
+}
+
+#reset {
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  color: blue;
+  font-size: 14px;
+}
+
+#newaccount {
+  background-color: #42b72a;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  width: 230px;
+}
+form {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#login:hover {
+  background-color: #166fe5;
+}
+
+#newaccount:hover {
+  background-color: #36a420;
+}
+p {
+  text-align: center;
+}
